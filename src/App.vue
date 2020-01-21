@@ -1,21 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <photoSelectShow msg="Welcome to Your Vue.js App"/>
+    <h1>Pizza or Spaghetti?!</h1>
+    <img alt="app logo" src="./assets/pizza or spaghetti.jpg">
+    <imgModerationUrl/>
+    <getRecipes/>
   </div>
 </template>
 
 <script>
-import photoSelectShow from './components/photoSelectShow.vue'
-//import HelloWorld from './components/HelloWorld.vue'
+import imgModerationUrl from './components/callCVwithModerator.vue'
+import getRecipes from './components/queryCosmos.vue'
 
-
-
+//console.log(process.env)
 
 export default {
-  name: 'app',
   components: {
-    photoSelectShow    
+    imgModerationUrl,
+    getRecipes
   }
 }
 </script>

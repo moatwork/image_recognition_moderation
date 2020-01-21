@@ -8,7 +8,9 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@azure/cosmos": "^3.5.3",
     "core-js": "^3.4.4",
+    "dotenv": "^8.2.0",
     "vue": "^2.6.10",
     "vue-azure-blob-upload": "0.0.6"
   },

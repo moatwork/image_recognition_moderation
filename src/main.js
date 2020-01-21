@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
-import axios from 'axios'
+
+//require('dotenv').config()
 
 Vue.config.productionTip = false
 
